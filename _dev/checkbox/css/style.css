@@ -10,3 +10,5 @@ root {
     display: block;
 }
 
+.togCheckBoxReplacement{width:20px; height:20px;display: inline-block; margin-top:5px; margin-right:5px;background:url(../images/checkboxSprite.png) 0 0 no-repeat; cursor:pointer}
+.togCheckBoxReplacementHvr{background-position:0 -22px}
