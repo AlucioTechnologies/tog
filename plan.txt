@@ -1,0 +1,36 @@
+To modify :
+input text/password (css)
+radio (css/js/images)
+checkbox (css/js/images)
+select (css/js/images)
+textarea (css)
+button (css/images)
+togglebutton (css/images)
+
+Namingconvention
+alForm, alTextArea, alRadio, etc
+
+Process:
+1) Hide provided element
+2)Dom Operation
+
+Form Standard:
+
+<form>
+	<ul>
+		<li>
+			<label for="$ipName">Name:</label>
+			<input name="$ipName" type="textbox" />
+		</li>
+		<li>
+			<label for="$ipPass">Password:</label>
+			<input name="$ipPass" type="password" />
+		</li>
+		<li>
+			<label for="$ipName">Gender:</label>
+			<input name="$ipGen" type="Radio" /> Male <input name="$ipGen" type="Radio" /> Female
+		</li>
+	</ul>
+
+</form>
+
