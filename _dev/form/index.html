@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>togForm</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div>
+            <form id="compose_form" class="togForm">
+                Send to:<input type="text" name="send_to" id="send_to" value=""/><br/>
+                Subject:<input type="text" name="subject" id="subject" value=""/><br/>
+                Message:<textarea name="message"></textarea>
+                <input type="submit" name="btn_send_msg" value="SEND" class="napzap_button" />
+            </form>
+            <script type="text/javascript">
+                $(function(){
+                    $("#compose_form").togForm();
+                });
+            </script>
+        </div>
+    </body>
+</html>
