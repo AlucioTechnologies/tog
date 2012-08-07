@@ -15,17 +15,17 @@ $(this).after("<div class='togCheckBoxReplacement'></<div>")
 $(".togCheckBoxReplacement").live("click",function(){
       
     //Check if the btn is checked previously
-    if($(this).attr("checked")=="checked")
+    if($(this).prev().attr("checked")=="checked")
     {
         
-        $(this).removeAttr("checked");
+        $(this).prev().removeAttr("checked");
           $(this).removeClass("togCheckBoxReplacementHvr");
             
     }
     else
     {
     
-        $(this).attr("checked","checked");
+        $(this).prev().attr("checked","checked");
    
         $(this).addClass("togCheckBoxReplacementHvr");
     }
